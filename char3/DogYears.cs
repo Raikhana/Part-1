@@ -23,10 +23,7 @@ namespace char3
             decimal task3 = 34.5m;
             float result3 = (float)task3;
             Console.WriteLine(result3);
-
             Console.WriteLine("Exit.");
-
-
 
             Console.WriteLine("     First Task");
             int myAge = 30;
@@ -50,6 +47,9 @@ namespace char3
             Console.WriteLine("Annual compound = 12 months;" + "\n" + "Principal = 3000 $;" + "\n" + "Interest Rate = 6.50 %;" + "\n");
             Console.WriteLine("Your amount after " + years + " years:  " + Math.Round(amountEarned, 2) + " $");
             Console.WriteLine("You will earn Interest: " + Math.Round(interestEarned, 2) + " $");
+            Console.ReadLine();
+
         }
+
     }
 }
